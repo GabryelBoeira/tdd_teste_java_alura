@@ -5,3 +5,7 @@
  - Aprenda a escrever testes automatizados com JUnit
  - Aprenda a utilizar o processo de TDD ao escrever testes automatizados
  - Conheça as principais anotações e recursos do JUnit
+
+[Certificado de conclusão do curso](https://cursos.alura.com.br/user/gabryelboeira/course/tdd-java-testes-automatizados-junit/certificate)
+
+**_ Curso Concluido _**
