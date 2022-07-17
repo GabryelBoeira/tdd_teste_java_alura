@@ -25,6 +25,7 @@ public class BonusServiceTest {
     void testeComSucessoBonus2() {
         BonusService bonusService = new BonusService();
         BigDecimal bonus = bonusService.calcularBonus(new Funcionario("Teste 2", LocalDate.now(), new BigDecimal("2500")));
+
         assertEquals(new BigDecimal("250.00"), bonus, "Bonus de 10% nao aplicado");
     }
 
@@ -33,6 +34,7 @@ public class BonusServiceTest {
     void testeComSucessoBonus3() {
         BonusService bonusService = new BonusService();
         BigDecimal bonus = bonusService.calcularBonus(new Funcionario("Teste", LocalDate.now(), new BigDecimal("10000")));
+
         assertEquals(new BigDecimal("1000.00"), bonus, "Nao poderia receber o bonus para salario igual a 10000");
     }
 
